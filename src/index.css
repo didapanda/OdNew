@@ -1,0 +1,135 @@
+html, body, div, p, h1 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiListItem-root.Mui-selected {
+  border-radius: 30px !important;
+}
+
+.MuiListItem-root {
+  border-radius: 30px !important;
+}
+
+/* .MuiDrawer-paper {
+  width: 60% !important;
+} */
+
+@media (max-width: 700px) {
+  .MuiDrawer-paper {
+    width: 80px !important;
+  }
+}
+
+
+.page-title {
+  color: #335d2d;
+  font-style: normal;
+  font-size: 60px !important;
+  font-weight: 900;
+}
+.page-background {
+  width: 100vw;
+  height: 100vh;
+}
+.page-img {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+.page-parent {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/img/Group.png') no-repeat right bottom;
+}
+.page-subtitle {
+  color: #335d2d;
+  font-style: normal;
+  font-size: 18px !important;
+  margin-top: -10px;
+}
+
+tbody tr {
+  color: #335d2d !important;
+  font-style: normal;
+  font-weight: 700;
+}
+/* pools */
+
+.button-color {
+  color: #fe7171 !important;
+}
+.green-text {
+  color: #97ab90 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-text-red {
+  color: #fe7171 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.bg-cl {
+  background-color: #fcfaf5 !important;
+  align-self: center !important;
+  width: 100%;
+  margin: 0px !important;
+}
+.bg-wt {
+  background-color: #ffffff !important;
+  justify-content: space-between;
+}
+.price {
+  color: #335d2d !important;
+  font-size: 36px;
+  font-weight: 600;
+}
+.price-sub {
+  color: #97ab90 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.harvestbtn {
+  background-color: #d4dbcd !important;
+  color: #97ab90 !important;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 30px !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.js {
+  justify-content: start !important;
+}
+
+.mtop {
+  margin-top: 18px !important;
+}
+
+.card {
+  width: 344px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.ht {
+  height: 100%;
+}
+
+.stakebtn {
+  border-radius: 30px !important;
+  margin-top: 24px !important;
+}
